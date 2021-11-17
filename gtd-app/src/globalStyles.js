@@ -6,12 +6,15 @@ export default createGlobalStyle`
       --white: #E5E5E5;
       --dark-blue: #053361;
       --light-blue: #0A66C2;
+
+      --font: 'sans-serif';
     }
 
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-style: none;
   }
 
   body {
