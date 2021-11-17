@@ -1,14 +1,12 @@
 import GlobalStyle from './globalStyles';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import { Login, Inicio } from './components';
-
+import Login from './pages/login/index';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Inicio />
+      <Login />
     </>
   );
 }

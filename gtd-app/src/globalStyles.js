@@ -1,17 +1,17 @@
 import { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
+export default createGlobalStyle`
+    :root {
+      --black: #000;
+      --white: #E5E5E5;
+      --dark-blue: #053361;
+      --light-blue: #0A66C2;
+    }
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-
-  :root {
-    --black: #000;
-    --white: #E5E5E5;
-    --dark-blue: #053361;
-    --light-blue: #0A66C2;
   }
 
   body {
@@ -21,5 +21,3 @@ const GlobalStyle = createGlobalStyle`
     overflow: hidden;
   }
 `;
-
-export default GlobalStyle;
